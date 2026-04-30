@@ -35,52 +35,44 @@
 
 ## Быстрый старт
 
+`ash
 git clone https://github.com/Sfinks322/AIChatFlutter-MultiPage.git
-
 cd AIChatFlutter-MultiPage
-
 flutter pub get
-
 cp .env.example .env
-
 flutter run -d chrome
-
+``n
 ## Скриншоты
 
 ### Главная страница
-![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/home.png)
+![Главная](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/home.png)
 
 ### Чат с ИИ
-![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/chat.png)
+![Чат](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/chat.png)
 
 ### Настройки провайдера
-![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/settings.png)
+![Настройки](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/settings.png)
 
 ### Статистика токенов
-![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/stats.png)
+![Статистика](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/stats.png)
 
 ### График расходов
-![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/charttoken.png)
+![График расходов](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/charttoken.png)
 
 ### Статистика в чате
-![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/statsinchat.png)
+![Статистика в чате](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/statsinchat.png)
 
 ## Структура проекта
 
+`	ext
 lib/
-
 +-- api/            # Клиенты API
-
 +-- models/         # Модели данных
-
 +-- providers/      # Управление состоянием
-
 +-- screens/        # Экраны приложения
-
 +-- services/       # Сервисы (БД, аналитика)
-
 +-- main.dart       # Точка входа
-
+``n
 ## Автор
 
 **Sfinks322** - [GitHub](https://github.com/Sfinks322)
