@@ -253,6 +253,7 @@ class ChatProvider with ChangeNotifier {
 
         // Обновление баланса после успешного сообщения
         await _loadBalance();
+        notifyListeners();
       } else {
         throw Exception('Invalid API response format');
       }
