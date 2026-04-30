@@ -46,22 +46,22 @@ flutter run -d chrome
 ## Скриншоты
 
 ### Главная страница
-![Главная](screenshots/home.png)
+![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/home.png)
 
 ### Чат с ИИ
-![Чат](screenshots/chat.png)
+![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/chat.png)
 
 ### Настройки провайдера
-![Настройки](screenshots/settings.png)
+![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/settings.png)
 
 ### Статистика токенов
-![Статистика](screenshots/stats.png)
+![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/stats.png)
 
 ### График расходов
-![График расходов](screenshots/charttoken.png)
+![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/charttoken.png)
 
 ### Статистика в чате
-![Статистика в чате](screenshots/statsinchat.png)
+![](https://raw.githubusercontent.com/Sfinks322/AIChatFlutter-MultiPage/main/screenshots/statsinchat.png)
 
 ## Структура проекта
 
