@@ -35,13 +35,15 @@
 
 ## Быстрый старт
 
- + '`ash' + 
 git clone https://github.com/Sfinks322/AIChatFlutter-MultiPage.git
+
 cd AIChatFlutter-MultiPage
+
 flutter pub get
+
 cp .env.example .env
+
 flutter run -d chrome
- + '`' + 
 
 ## Скриншоты
 
@@ -65,15 +67,19 @@ flutter run -d chrome
 
 ## Структура проекта
 
- + '`' + 
 lib/
-├── api/            # Клиенты API
-├── models/         # Модели данных
-├── providers/      # Управление состоянием
-├── screens/        # Экраны приложения
-├── services/       # Сервисы (БД, аналитика)
-└── main.dart       # Точка входа
- + '`' + 
+
++-- api/            # Клиенты API
+
++-- models/         # Модели данных
+
++-- providers/      # Управление состоянием
+
++-- screens/        # Экраны приложения
+
++-- services/       # Сервисы (БД, аналитика)
+
++-- main.dart       # Точка входа
 
 ## Автор
 
