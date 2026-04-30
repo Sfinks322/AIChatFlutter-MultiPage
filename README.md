@@ -50,6 +50,7 @@ cp .env.example .env
 # Запуск
 flutter run -d chrome  # для веба
 flutter run -d windows  # для Windows
+
 ## 📸 Скриншоты
 
 ### Главная страница
