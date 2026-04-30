@@ -53,20 +53,20 @@ flutter run -d chrome  # для веба
 flutter run -d windows  # для Windows
 ## 📸 Скриншоты
 
-### Главная и Чат
+### Главная страница
+![Главная](screenshots/home.png)
 
-| Главная страница | Чат с ИИ |
-|------------------|----------|
-| ![Главная](screenshots/home.png) | ![Чат](screenshots/chat.png) |
+### Чат с ИИ
+![Чат](screenshots/chat.png)
 
-### Настройки и Статистика
+### Настройки провайдера
+![Настройки](screenshots/settings.png)
 
-| Настройки провайдера | Статистика токенов |
-|----------------------|-------------------|
-| ![Настройки](screenshots/settings.png) | ![Статистика](screenshots/stats.png) |
+### Статистика токенов
+![Статистика](screenshots/stats.png)
 
-### Графики и Аналитика
+### График расходов
+![График расходов](screenshots/charttoken.png)
 
-| График расходов | Статистика в чате |
-|----------------|-------------------|
-| ![График](screenshots/charttoken.png) | ![Статистика в чате](screenshots/statsinchat.png) |
+### Статистика в чате
+![Статистика в чате](screenshots/statsinchat.png)
