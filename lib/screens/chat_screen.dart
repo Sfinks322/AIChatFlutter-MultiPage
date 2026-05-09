@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../providers/chat_provider.dart';
 import '../providers/home_provider.dart';
@@ -188,9 +187,13 @@ class _ChatScreenState extends State<ChatScreen> {
               ),
               onSubmitted: (text) {
                 if (text.trim().isNotEmpty) {
-                  context.read<ChatProvider>().sendMessage(text);
+                  context.read<ChatProvider>().sendMessage(text).then((_) {
+                    setState(() {
+                      _currentChat.messages = List.from(context.read<ChatProvider>().messages);
+                    });
+                    _updateChat();
+                  });
                   controller.clear();
-                  _updateChat();
                 }
               },
             ),
@@ -200,9 +203,13 @@ class _ChatScreenState extends State<ChatScreen> {
             icon: const Icon(Icons.send, color: Colors.blue),
             onPressed: () {
               if (controller.text.trim().isNotEmpty) {
-                context.read<ChatProvider>().sendMessage(controller.text);
+                context.read<ChatProvider>().sendMessage(controller.text).then((_) {
+                  setState(() {
+                    _currentChat.messages = List.from(context.read<ChatProvider>().messages);
+                  });
+                  _updateChat();
+                });
                 controller.clear();
-                _updateChat();
               }
             },
           ),
